@@ -14,6 +14,7 @@
 @class StepModel;
 @interface DB : NSObject
 
++(void)createDatabase;
 #pragma mark -  FDK do that  添加了 针对鞋垫的右脚的步数
 +(void)insertPeripheralStepInfo:(StepModel *)model;
 
